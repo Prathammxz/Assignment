@@ -24,6 +24,18 @@
             //Calendar calendar = new Calendar();
             //calendar.PrintWeekdays();
 
+            Print2D p1 = new Print2D();
+            p1.x = 2.1f;
+            p1.y = 3.2f;
+
+            Print2D p2 = new();
+            p2.x = 5.2f;
+            p2.y = 4.4f;
+
+            float distance=Print2D.CalculateDistance(p1, p2);
+
+            Console.WriteLine(distance);
+
 
         }
     }

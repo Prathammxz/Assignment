@@ -10,5 +10,12 @@ namespace Assignment
     {
         public float x;
         public float y;
+
+        public static float CalculateDistance(Print2D p1, Print2D p2)
+        {
+            return (float)Math.Sqrt(Math.Pow(p2.x - p1.x, 2) + Math.Pow(p2.y - p1.y, 20));
+        }
     }
+
+
 }
